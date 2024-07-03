@@ -1,0 +1,1031 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: Arial, Helvetica, sans-serif; */
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header{
+   
+}
+a{
+    text-decoration: none;
+    color:#032d60;
+    font-size: 1rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}
+.nav{
+    height: 96px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    background-color: white;
+    z-index: 9;
+
+    
+  
+    
+}
+.nav2{
+    height: 48px;
+    background-color:rgb(29, 29, 105);
+   position: relative;
+   top: 96px;
+}
+.logo{
+    height: 48px;
+    width: 68px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 180px;
+}
+.user{
+    display: flex;
+    
+}
+.user i{
+    margin-right: 3px;
+}
+.nav i {
+    font-size: 18px;
+}
+.nav button{
+    height:42.06px ;
+    width: 135px;
+    background-color:#1d9a47;
+    border: none;
+    border-radius: 5px;
+    color:white;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: 0.1s ease-in ;
+
+}
+.nav button:hover{
+    background-color: rgba(0, 0, 0, 0.851);
+    cursor: pointer;
+}
+#more{
+    font-size: 1rem;
+    text-decoration: none;
+    border: none;
+    color:#032d60;
+    /* font-weight: 550; */
+    cursor: pointer;
+    font-weight: 610;
+    
+}
+ 
+
+#tp{
+    background-color: red;
+    height:400px;
+}
+#tp2{
+    height: 1200px;
+    background-color: #1d9a47;
+}
+.c:hover{
+    color:rgba(29, 29, 245, 0.941);
+    cursor: pointer;
+}
+.contact a{
+    font-size: 1rem;
+    text-decoration: underline;
+    font-weight: 350;
+    margin-bottom: 7px;
+}
+.nav2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #fff;
+    font-weight: 600;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 1.2rem;
+
+}
+
+.nav2 a{
+    color: #ffff;
+    text-decoration: underline;
+    margin-left: 16px;
+    font-size: 1.2rem;
+}
+.page1{
+    background-image: url("https://wp.salesforce.com/en-ap/wp-content/uploads/sites/14/2024/02/php-marquee-starter-lg-bg.jpg?resize=2048,640");
+height: 56vh;
+background-position: center;
+background-size: cover;
+/* position: relative;
+top: 96px; */
+/* margin-bottom: 96px; */
+margin-top: 96px;
+}
+.page1{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    padding:    12px 60px;
+    margin-bottom: 96px;
+ 
+   
+}
+.pbox1{
+    height:325.02px ;
+    width: 570px;
+    /* border: 2px solid black; */
+    margin-top: 30px;
+}
+.pbox1 h1{
+    font-size: 3.7rem;
+    color: #032d60;
+}
+.pbox1 p{
+    margin-top:12px ;
+    font-size: 1.4rem;
+}
+.pbox2{
+  
+    height:345.02px ;
+    width: 590px;
+    border-radius: 13px;
+    position: relative;
+    top: 80px;
+}
+.page1-btns button{
+    height:51.2px ;
+    width: 173.05px;
+    font-size: 1.1rem;
+    font-weight: 550;
+    margin-top: 40px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+#p1-btn1{
+    color: #ffff;
+    background-color: #0176d3;
+}
+#p1-btn2{
+    margin-left: 10px;
+    color: #0176d3;
+    border:2px solid #0176d3 ;
+}
+.pbox2{
+    background-image: url("https://play.vidyard.com/EPhLojrTKLFGqAWw9ECW23.jpg");
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.page2{
+    height: 100vh;
+    /* height: 1200px; */
+    margin-top: 119px;
+    background-image: url("https://wp.salesforce.com/en-in/wp-content/uploads/sites/21/2023/03/pb-hp-products-bg.png?resize=2048,625");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+   display: flex;
+   /* justify-content: center; */
+   flex-direction: column;
+   align-items: center;
+   
+}
+.title{
+    font-size: 3rem;
+    color: black;
+}
+.page2 h2{
+    text-align: center;
+   
+    color: #032d60;
+    margin-bottom: 40px;
+}
+.cards{
+   
+    width: 1220px;
+height: 410px;
+/* border: 2px solid black; */
+background-color: transparent;
+display: flex;
+justify-content: space-between;
+
+
+
+
+
+}
+.card1{
+    height:100%;
+    width: 275px;
+    /* border: 1px solid #ddd; */
+    border-radius: 22px;
+    background-color:#ffff;
+    box-shadow: 0.1px 0.1px 1px black;
+
+cursor: pointer;
+
+
+    /* position: relative;
+    animation-name:up ;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal; */
+  transition: all 0.7s ease 0s;
+   
+}
+.cards img{
+ height: 151px;
+ width: 100%;
+ border-radius: 22px;
+}
+.info{
+    padding: 20px;
+}
+.cards h2{
+    margin-top: 22px;
+    text-align: start;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.cards h2:hover{
+    color: #0176d3;
+}
+.L{
+  
+    text-decoration: underline;
+    font-size: 1.1rem;
+    /* position:absolute;
+    text-align: end;
+    bottom: 10px; */
+    
+    
+}
+.card1 a{
+    font-size: 0.97rem;
+}
+.learn{
+    margin-bottom: 61px;
+}
+.learn2{
+    margin-bottom:39px;
+
+    
+}
+.cards a:hover{
+    color: #0176d3;
+    text-decoration: none;
+    
+}
+.card1:hover{
+    /* height:110%;
+    width: 275px; */
+     /* position: relative; 
+    bottom: 20px;  */
+   transform: translatey(-20px);
+   bottom: 20px;
+   
+   
+    /* position: relative;
+    animation-name:up ;
+    animation-duration: 0.2s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 5;
+    animation-direction:inherit; */
+    /* transition: ; */
+}
+#view-btn{
+    margin-top: 50px;
+  font-size: 1rem;  
+  border: 2px solid #0176d3;
+  color: #0176d3;
+  border-radius: 3px;
+  height:51.02px ;
+  width: 230px;
+  font-weight: 590;
+  cursor: pointer;
+
+}
+.page3 h1{
+    margin-top: 30px;
+ font-size: 2.8rem;
+ text-align: center;
+ color: #032d60;
+
+ 
+}
+.p3-info{
+    display: flex; 
+     justify-content: center;
+    /* margin-top: 30px; */
+    flex-direction: column;
+    width: 100vw;
+    
+   
+}
+.page3{
+display: flex;
+justify-content: center;
+
+}
+.p3-info p{
+    font-size: 1.15rem;
+    margin-top: 13px;
+ word-spacing: 7px;
+ color: #181818;
+ padding-left: 20px;
+ padding-right: 20px;
+ line-height: 30px;
+}
+.p3-info {
+    width: 770px;
+   
+    /* border: 2px  solid black; */
+    /* padding: 10px 70px; */
+   
+}
+/* #happy-every{
+   margin-left:39% ;
+} */
+.p3-info #btn1{
+    color: #ffff;
+    background-color: #0176d3;
+    height:51.2px ;
+    width: 173.05px;
+    font-size: 1.1rem;
+    font-weight: 550;
+    margin-top: 40px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.p3info-btns{
+    display: flex;
+    justify-content: center;
+
+   margin-bottom: 40px;
+    
+}
+
+.p3info-btns #btn2{
+    margin-left: 10px;
+    color: #0176d3;
+    border:2px solid #0176d3 ;
+    height:51.2px ;
+    width: 173.05px;
+    font-size: 1.1rem;
+    font-weight: 550;
+    margin-top: 40px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#skill{
+    font-size: 2rem;
+}
+#s{
+    margin-left:39% ;
+
+}
+.p3cards{
+    height: 490px;
+    width: 1220px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+
+}
+.page4{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.p3-card{
+    height:400px ;
+    width: 320px;
+    border: 1px solid #ddd;
+    padding: 24px;
+    border-radius: 22px;
+    background-color:#ffff;
+    box-shadow: 0.1px 0.1px 3px black;
+    
+    transition: all 0.7s ease 0s;
+
+cursor: pointer;
+}
+.img-container{
+    height:120px ;
+    width: 296px;
+    display: flex;
+    justify-content: center;
+    
+
+}
+.p4-info{
+    margin-top: 30px;
+}
+.p3-card img{
+ height: 120px;
+ width: 120px;
+ 
+}
+.p4-info .module{
+ padding: 5px 10px;
+ background-color: #1ea7fd33;
+ display: inline-block;
+ border-radius: 20px;
+ font-size: 0.85rem;
+ color: #032d60;
+ font-weight: 500;
+ margin-bottom: 10px;
+}
+.p4-info h2{
+    font-size: 1.6rem;
+    color:#032d60;
+    margin-bottom: 12px;
+}
+.p4-info p{
+    font-size: 1.02rem;
+    color: #181818;
+    word-spacing: 6px;
+    margin-bottom: 45px;
+    
+}
+.p4-info a{
+ text-decoration: underline;
+}
+#crm{
+    margin-bottom:79px ;
+}
+
+.p3-card:hover{
+    transform: translatey(-20px);
+    bottom: 20px
+}
+.p-5info button{
+ 
+    height:51.2px;
+    width: 170.65px;
+    border: 2.3px solid #0176d3;
+    color: #0176d3;
+    font-size: 1rem;
+    font-weight: 550;
+   border-radius: 4px;
+   margin-top: 50px;
+   margin-bottom: 60px;
+   cursor: pointer;
+    
+}
+
+.p5info{
+    font-size: 2.4rem;
+}
+.page5{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    /* height: ; */
+    margin-top: 43px;
+}
+.p5info{
+    width: 770px;
+    color: #032d60;
+   font-size: 1.3rem;
+    font-weight: 550;
+   margin-bottom: 50px;
+}
+#small-line{
+    margin-left: 1.5%;
+}
+#saleforce{
+ 
+   margin-bottom: 30px;
+}
+.p5-btn{
+   margin-top: 110px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+    
+
+}
+.p5info h1{
+    text-align: center;
+}
+.view-all{
+    
+    width:210px ;
+    height:51.2px ;
+    border-radius: 3px;
+    font-size: 1rem;
+    font-weight: 550;
+    border: 2px solid #0176d3;
+    color: #0176d3;
+    margin-bottom: 100px;
+
+}
+
+
+
+
+.img-containerp5{
+   margin-top: 110px;
+    height: 42vh;
+    width: 100vw;
+    background-image: url("https://wp.salesforce.com/en-in/wp-content/uploads/sites/21/2023/03/pb-hp-logos-bg-2.png?resize=2048,414");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-bottom-left-radius:40% ;
+    border-bottom-right-radius:40% ;
+    display: flex;
+    justify-content: center;
+}
+.logos-container{
+    /* border: 2px solid black; */
+    height: 250px;
+    width: 1300px;  
+    transform: translatey(-190px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* justify-content: space-around; */
+    gap: 15px;
+    row-gap: 1px;
+    
+    
+}
+.mini-card{
+    width: 200px;
+    height: 100px;
+    border: 1px solid #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0.1px 0.1px 6px black;
+    border-radius: 6px;
+    transition: all 0.5s linear 0s;
+    
+  
+}
+.mini-card img{
+   height: 47px;
+   width: 137px;
+ /* background-image: url("https://wp.salesforce.com/en-in/wp-content/uploads/sites/21/2023/03/in-hp-min-logo-balaji.png?resize=300,108");
+  */
+ /* background-size: cover; */
+ border-radius: 6px;
+}
+.mini-card img:hover{
+border: 5.5px solid #0176d3;
+
+}
+.mini-card:hover{
+    transform: translatey(-16px);
+}
+
+.software-container{
+    margin-top: 70px;
+    width: 100vw;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.software-pannel{
+    height: 451.6px;
+    width: 1200px;
+    /* border: 0.5px solid #ddd; */
+    border-radius:6px ;
+    display: flex;
+    padding: 15px;
+    border-radius: 13px;
+    box-shadow: 1px  1px 4px black;
+    margin-bottom: 100px;
+
+}
+.pannel-box1{
+    height: 100%;
+    width:50%;
+
+    
+    /* padding: 70px; */
+    padding-bottom: 0;
+}
+ .pannel-box2{
+   
+    height: 100%;
+    width: 50%;
+    background-image: url("https://wp.salesforce.com/en-in/wp-content/uploads/sites/21/2023/12/php-free-trial-mobile-inr2000-940w.png?resize=768,654");
+    background-size: cover;
+    background-position: center;
+   /* background-repeat: no-repeat; */
+ }
+ .soft-head{
+  padding: 70px;
+ }
+ .soft-head h1{
+    font-size: 2.3rem;
+    color: #032d60;
+    line-height: 47px;
+ }
+ .soft-btns{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-right: 50px;
+ }
+ .soft-btns button{
+   
+    height:53.2px ;
+    font-weight: 550;
+    border:none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+ }
+ #soft-btn1{
+
+    width:173px ;
+    color: #ffffff;
+    background-color: #0176d3;
+
+ }
+ #soft-btn2{
+
+   width: 151.2px;
+    border: 2px solid #0176d3;
+color: #0176d3;
+
+ }
+ .help-pannel h1{
+    font-size: 2.35rem;
+    color: #032d60;
+    text-align: center;
+   
+ }
+ .business-container{
+    padding-top: 60px;
+    width: 1200px;
+
+    height: 418.4px;
+   
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+ }
+ .bussines-card{
+    height: 100%;
+    width: 243.2px;
+    /* padding-left: 30px; */
+    cursor: pointer;
+    
+ }
+ .busi-img-container{
+    width: 249.2px;
+    height: 249.3px;
+    margin-bottom: 50px;
+   
+ }
+
+.busi-img-container img{
+   width: 249.2px;
+   height: 249.3px;
+   background-position: center;
+   background-repeat: no-repeat;
+   transition: all 0.4s  linear 0s;
+  
+   
+}
+.bussines-card a{
+    text-decoration: underline;
+  
+}
+.bussines-card a:hover{
+    text-decoration: none;
+    color: #0176d3;
+}
+
+.bussines-card img:hover{
+    transform: scale(1.1);
+}
+.p6-head h1{
+
+   font-size: 2.3rem;
+   color: #032d60;
+   /* width: 733.56px; */
+  
+   
+   
+ 
+}
+.p6-head{
+  width: 733.56px;
+ 
+
+}.fortune-pannel{
+    margin-bottom: 100px;
+    /* width: 100%; */
+    background-color: #87cfeb1b;
+    
+ 
+  
+  
+    
+}
+.p6-head-containner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #87cfeb08;
+    
+   
+}
+.fortune-card-container{
+    height: 322.2px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    
+   margin-bottom: 0px;
+    
+}
+.fortune-pannel{
+    display: flex;
+    justify-content: center;
+ padding-bottom: 80px;
+  
+    background-color: #87cfeb08;;
+}
+.fortune-card{
+    
+    width: 355.6px;
+    /* height: 240.51px; */
+   
+}
+.fortune-img-container img{
+ /* background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover; */
+ width: 355.6px;
+    height: 240.51px;
+}
+
+.fortune-img-container {
+    width: 345.6px;
+    height: 230.51px;
+    margin-bottom: 30px;
+}
+.fortune-para p{
+font-size: 1.2rem;
+color: #181818 ;
+}
+.fortune-big-img{
+    width: 100vw;
+    border: 2px solid black;
+}
+.fortune-img-container img{
+    transition: all 0.5s ease 0s ;
+}
+.fortune-img-container img:hover{
+    transform: scale(1.1);
+}
+.fortune-big-img-container {
+    height: 320px;
+   
+    /* border-bottom-left-radius: 10%; */
+    width: 100vw;
+    border-bottom-left-radius: 10%;
+    margin-bottom: 100px;
+}
+ #big-img{
+/* background-image: url("https://wp.salesforce.com/en-in/wp-content/uploads/sites/21/2023/03/pb-hp-products-bg-2.png?resize=2048,410"); */
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+height: 300px;
+width: 100vw;
+border-bottom-left-radius: 80%;
+border-bottom-right-radius: 80%;
+/* border-radius: 10px; */
+background-color:#87cfeb08;
+/* padding-top: 70px; */
+position: relative;
+bottom: 100px;
+
+}
+.last-pannel-container{
+    height: 460px;
+   /* border: 2px solid black; */
+   width: 100vw;
+   position: relative;
+   bottom: 100px;
+   display: flex;
+   justify-content: center;
+}
+.last-pannel{
+    height: 100%;
+    width: 1200px;
+    /* border: 2px solid black; */
+    background-image: url("https://wp.salesforce.com/en-in/wp-content/uploads/sites/21/2023/04/pb-hp-footer-mid3-in.jpg?resize=2048,1270");
+    /* background-position-x:-50px ; */
+    background-position-y:-280px ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    /* box-shadow: 0.5px 0.5px 10px; */
+    display: flex;
+    justify-content: center;
+    border: 1px solid #ddd;
+    position: relative;
+    bottom: 50px;
+}
+.last-info{
+   
+    
+    width: 50%;
+    text-align: center;
+    padding-top: 55px;
+}
+.last-info p{
+    font-size: 1.15rem;
+    margin-top: 37px;
+    color: #181818;
+}
+.last-info h1{
+    font-size: 2.45rem;
+    color: #032d60;
+}
+.last-btns{
+    margin-top: 40px;
+    
+}
+.last-btns a{
+    text-decoration: underline;
+}
+.last-btns a:hover{
+    text-decoration: none;
+    color: #0176d3;
+}
+.last-btn1{
+    cursor: pointer;
+    height:51.2px ;
+    width:148.96px ;
+    border-radius: 6px;
+    border: none;
+    color: #ffffff;
+    background-color: #0176d3;
+    font-weight: 550;
+    font-size: 1rem;
+    margin-right: 20px;
+
+
+}
+/* top footer */
+
+.top-footer-inner{
+
+    
+    width: 1200px;
+    height: 100%;
+    margin-left: 130px;
+    /* margin-right: 110px; */
+    display: flex;
+}
+.top-footer{
+
+width: 100vw;
+
+/* height: 503.09px; */
+height: 410px;
+position: relative;
+bottom: 100px;
+
+}
+.top-footer-logo-container{
+height: 100%;
+width: 400px;
+}
+.footer-web-img{
+    width: 92px;
+    height: 64px;
+    margin-top: 80px;
+}
+.app-links{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.app-link-icons{
+    font-size: 1.8rem;
+    color:rgb(87, 85, 85);
+    margin-right: 10px;
+}
+.top-footer-logo-container p{
+    color: #444444;
+    font-weight: 550;
+   
+}
+
+.links{
+    margin-top: 85px;
+    width: 290px;
+}
+.links p{
+    margin-bottom: 30px;
+    color: #444444;
+    font-weight: 670;
+   font-size: 0.9rem;
+}
+.links ul  a{
+    font-size: 0.85rem;
+    font-weight: 450;
+    padding-bottom: 10px;
+    color: #0b5cab;
+}
+.links ul{
+ display: flex;
+ flex-direction: column;
+}
+footer{
+    height: 118px;
+    border: 2px solid black;
+    width: 100vw;
+    position: relative;
+    background-color: #032e61;
+  
+  
+}
+.footer-container{
+    display: flex;
+    margin-top: 10px;
+}
+.footer-links{
+    /* margin-top: 10px; */
+    height: 34px; 
+    display: flex;
+    align-items: center;
+}
+footer a{
+    color: white;
+    text-decoration: underline;
+    font-size: 0.8rem;
+    margin-right: 25px;
+    font-weight: 400;
+    
+}
+.world-icon{
+    color: white;
+    font-size:1.5rem ;
+    margin-left:240px;
+    display: flex;
+   height: 34px;
+   align-items: center;
+   gap: 7px;
+   margin-right: 20px;
+  
+  
+
+}
+.world-icon p{
+    font-size: 1rem;
+}
+#world-select{
+background-color: #032e61;
+color: white;
+border: none;
+
+
+}
+.last-para{
+    margin-top: 8px;
+    color: white;
+    font-size: 0.85rem;
+    text-align: center;
+}
+.footer-links a:hover{
+    color:#0176d3;
+}
+.devoloper{
+    margin-top: 10px;
+    color: white;
+    display: flex;
+justify-content: center;
+align-items: center;
+font-size: 0.85rem;
+gap: 5px;
+}
